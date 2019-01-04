@@ -1,2 +1,2 @@
 FROM tomcat:8.0
-COPY /1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/myapp/
+COPY ./target/slider-test-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/myapp/
